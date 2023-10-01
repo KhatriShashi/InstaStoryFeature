@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#mobile{
+    height: 500px;
+    width: 280px;
+    background-color: blue;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.camera{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.camera-icon{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+    border:1px solid rgba(255, 255, 255);
+    outline: none;
+}
+.bazzales{
+    width: 100%;
+    height: 92%;
+    background-color: black;
+    padding:0 5px 5px 5px;
+}
+#screen{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    border-radius:0 0 20px 20px;
+    overflow: hidden;
+}
+#storiyan{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);
+    padding: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+.full-screen{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#storiyan::-webkit-scrollbar{
+    display:none;
+}
+.story{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    display:inline-block;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+#storyshow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-color:transparent;
+    background-position: center;
+    background-size:cover;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.home_screen{
+    width: 100%;
+}
+.home_screen img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
